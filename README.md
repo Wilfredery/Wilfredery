@@ -30,69 +30,113 @@ Senior-minded developer focused on **shipping reliable software**. I design syst
 
 ### Frontend
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=22C55E)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=22C55E)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=22C55E)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=22C55E)
-![DaisyUI](https://img.shields.io/badge/DaisyUI-1A1A1A?style=flat-square&logo=daisyui&logoColor=22C55E)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=22C55E)
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=22C55E)
+![TypeScript](https://img.shields.io/badge/TypeScript_5-3178C6?style=flat-square&logo=typescript&logoColor=22C55E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-0F172A?style=flat-square&logo=tailwindcss&logoColor=22C55E)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-1A1A1A?style=flat-square&logo=shadcn&logoColor=22C55E)
 
 ### Backend & Data
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=22C55E)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=22C55E)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=22C55E)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=22C55E)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=22C55E)
 
 ### Testing & Quality
 
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=22C55E)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=22C55E)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=22C55E)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=22C55E)
 
 ### Tooling & DevOps
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=22C55E)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=22C55E)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=22C55E)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=22C55E)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=22C55E)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=22C55E)
 
 ---
 
 ## Featured Projects
 
-### Shine Tech Data
+### Fast Factura — Dominican Republic Electronic Invoicing System
 
-Enterprise-grade data management platform built with the Next.js App Router.
+Enterprise-grade billing system compliant with DGII (Dominican tax authority) requirements. Built for real businesses.
 
-- **Architecture:** Next.js 14, App Router, Server Actions, TypeScript
-- **Styling:** Tailwind CSS, DaisyUI, responsive design
-- **Testing:** Vitest + Playwright E2E
-- **Repo:** [github.com/Wilfredery/shine-tech-data](https://github.com/Wilfredery/shine-tech-data)
+- **Architecture:** Next.js 16 App Router, React 19 Server Actions, Feature-based modular architecture
+- **Database:** Prisma 6 + SQLite with atomic transactions for invoice operations
+- **Validation:** Zod v4 schema validation with type-safe state management
+- **Testing:** Vitest + Testing Library (unit tests) + Playwright (E2E with webServer config)
+- **DevOps:** Conventional commits, chained PRs, SDD workflow, `start.bat` for non-technical users
+- **Repo:** [github.com/Wilfredery/fast-factura](https://github.com/Wilfredery/fast-factura)
 
-### MyNotes Fullstack
+---
 
-Full-stack note-taking application with real-time sync and authentication.
+### ShineTechData — Corporate Website (Production)
 
-- **Stack:** Next.js, React, TypeScript, Firebase (Auth + Firestore)
-- **Features:** CRUD operations, real-time updates, protected routes
-- **Testing:** Unit tests with Vitest, integration tests with Playwright
-- **Repo:** [github.com/Wilfredery/MyNotes_Fullstack](https://github.com/Wilfredery/MyNotes_Fullstack)
+Official website for a data consulting firm (BI, Machine Learning, Automation). Live in production.
 
-### Playwright Test Suite
+- **Performance:** PageSpeed 92/100 mobile, 99/100 desktop
+- **Testing:** 555 tests passing across 76 test files — 100% component coverage
+- **i18n:** Bilingual EN/ES with automatic locale detection and prefixed routes (`/en`, `/es`)
+- **SEO:** JSON-LD structured data, Open Graph, Twitter Cards, dynamic metadata
+- **Architecture:** Next.js 16 App Router, Server Components + lazy-loaded islands, custom theme system
+- **Deployment:** Vercel with Serverless, Turbopack in dev, Core Web Vitals monitoring
+- **Live:** [shinetechdata.com](https://www.shinetechdata.com/en/)
+- **Repo:** [github.com/Wilfredery/std-official](https://github.com/Wilfredery/std-official)
 
-Professional end-to-end testing framework and test suites for web applications.
+---
 
-- **Tech:** Playwright, TypeScript, Page Object Model
-- **CI/CD:** GitHub Actions integration
-- **Focus:** Cross-browser testing, visual regression, API testing
-- **Status:** In active development
+### LPlaywright — Professional E2E Testing Framework
+
+Complete testing suite for a TechMart e-commerce demo application. Production-ready testing infrastructure.
+
+- **Coverage:** 9 spec files covering API, auth, cart, checkout, homepage, edge cases, mocking, accessibility
+- **Cross-browser:** Chromium, Firefox, WebKit, Mobile Chrome (Pixel 5), Mobile Safari (iPhone 12)
+- **Advanced patterns:** API mocking with `page.route()`, network error simulation, 3-second delay testing
+- **Accessibility:** axe-core/playwright WCAG 2.0 AA automated audits — alt text, heading hierarchy, keyboard focus, color contrast
+- **CI-ready:** `forbidOnly`, retries, traces and video on failure
+- **Repo:** [github.com/Wilfredery/LPlaywright](https://github.com/Wilfredery/LPlaywright)
+
+---
+
+### myNotes — Full-Stack Note Management
+
+Production-ready note-taking application with real-time sync and authentication.
+
+- **Stack:** Node.js, Express 5, EJS (SSR), Firebase Auth + Firestore, SCSS with BEM methodology
+- **Build pipeline:** Webpack 5 (bundling) + Gulp 5 (SCSS, tasks) + Sharp (image optimization) + BrowserSync
+- **Auth:** Google OAuth + Firebase Auth with email verification, password reset, session management
+- **Features:** CRUD operations, user-isolated data, internationalization (i18n), dark/light theme, responsive design
+- **Security:** Restrictive query parser, environment variables, duplicate action protection
+- **Repo:** [github.com/Wilfredery/mynotes-fullstack](https://github.com/Wilfredery/mynotes-fullstack)
+
+---
+
+### AIpractice — Task Tracker (Modern React Architecture)
+
+Task management application demonstrating cutting-edge React patterns and component architecture.
+
+- **Architecture:** Next.js 16 App Router, Container/Presentational pattern, Server Components entry point
+- **Components:** 57 shadcn/ui components (Radix primitives) — accordion, data tables, command palette, charts, carousel
+- **State management:** Custom `useLocalStorage<T>` hook with SSR-safe hydration, `useMemo` for derived data
+- **Testing:** Jest 30 + Testing Library with jsdom environment, crypto.randomUUID polyfill
+- **Tooling:** TypeScript strict mode, `import type` for tree-shaking, `next-themes` for theme switching
+- **Repo:** [github.com/Wilfredery/Metiendo-mano](https://github.com/Wilfredery/Metiendo-mano)
 
 ---
 
 ## Engineering Focus
 
-- **Software Architecture** — Clean architecture, hexagonal patterns, separation of concerns
-- **Test-Driven Development** — Writing tests first, maintaining coverage discipline
-- **CI/CD & Automation** — GitHub Actions, automated testing, deployment pipelines
-- **AI-Assisted Development** — Leveraging OpenCode and Gentle AI for code quality and velocity
+- **Software Architecture** — Clean architecture, hexagonal patterns, feature-based modularity, separation of concerns
+- **Test-Driven Development** — Writing tests first, maintaining coverage discipline, 555+ tests in production
+- **CI/CD & Automation** — GitHub Actions, automated testing, deployment pipelines, conventional commits
+- **Performance Engineering** — PageSpeed optimization, Core Web Vitals, lazy loading, image optimization
+- **AI-Assisted Development** — Leveraging OpenCode and Gentle AI for code quality, SDD workflows, and velocity
+- **Accessibility** — WCAG 2.0 AA compliance, automated axe audits, semantic HTML, keyboard navigation
 
 ---
 
