@@ -142,19 +142,13 @@ Task management application demonstrating cutting-edge React patterns and compon
 
 </div>
 
+---
+
+## Contribution Activity
+
 <div align="center">
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Wilfredery&theme=merko&hide_border=true&area=true&area_color=22C55E&line=22C55E&point=22C55E&color=22C55E" alt="Contribution Graph" width="100%" />
-
-</div>
-
----
-
-## Professional Metrics
-
-<div align="center">
-
-  <img src="https://github-profile-trophy.vercel.app/?username=Wilfredery&theme=matrix&no-frame=true&column=4&margin-w=8&margin-h=8" alt="GitHub Trophies" width="100%" />
 
 </div>
 
