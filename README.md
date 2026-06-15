@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <strong>Frontend & Full Stack Developer</strong> · Dominican Republic
+  <strong>Full Stack Developer</strong> · Dominican Republic
 </p>
 
 <p align="center">
