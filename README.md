@@ -62,7 +62,7 @@ Senior-minded developer focused on **shipping reliable software**. I design syst
 
 ## Featured Projects
 
-### Fast Factura — Dominican Republic Electronic Invoicing System
+<!-- ### Fast Factura — Dominican Republic Electronic Invoicing System
 
 Enterprise-grade billing system compliant with DGII (Dominican tax authority) requirements. Built for real businesses.
 
@@ -73,7 +73,7 @@ Enterprise-grade billing system compliant with DGII (Dominican tax authority) re
 - **DevOps:** Conventional commits, chained PRs, SDD workflow, `start.bat` for non-technical users
 - **Repo:** [github.com/Wilfredery/fast-factura](https://github.com/Wilfredery/fast-factura)
 
----
+--- -->
 
 ### ShineTechData — Corporate Website (Production)
 
@@ -87,19 +87,6 @@ Official website for a data consulting firm (BI, Machine Learning, Automation). 
 - **Deployment:** Vercel with Serverless, Turbopack in dev, Core Web Vitals monitoring
 - **Live:** [shinetechdata.com](https://www.shinetechdata.com/en/)
 - **Repo:** [github.com/Wilfredery/std-official](https://github.com/Wilfredery/std-official)
-
----
-
-### LPlaywright — Professional E2E Testing Framework
-
-Complete testing suite for a TechMart e-commerce demo application. Production-ready testing infrastructure.
-
-- **Coverage:** 9 spec files covering API, auth, cart, checkout, homepage, edge cases, mocking, accessibility
-- **Cross-browser:** Chromium, Firefox, WebKit, Mobile Chrome (Pixel 5), Mobile Safari (iPhone 12)
-- **Advanced patterns:** API mocking with `page.route()`, network error simulation, 3-second delay testing
-- **Accessibility:** axe-core/playwright WCAG 2.0 AA automated audits — alt text, heading hierarchy, keyboard focus, color contrast
-- **CI-ready:** `forbidOnly`, retries, traces and video on failure
-- **Repo:** [github.com/Wilfredery/LPlaywright](https://github.com/Wilfredery/LPlaywright)
 
 ---
 
